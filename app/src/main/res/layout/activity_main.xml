@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:textDirection="firstStrongRtl"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="211dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/descripcionConec3x6" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        style="@android:style/Widget.DeviceDefault.Light.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="211dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/descripcionConec2x2" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="false"
+        app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="107dp"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="128dp"
+        android:onClick="show2x2order"
+        app:srcCompat="@mipmap/conector_2e2s_foreground" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="459dp"
+        android:layout_marginEnd="33dp"
+        android:text="@string/descripcionConec2x6" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="111dp"
+        android:layout_height="110dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="207dp"
+        android:onClick="show2x6Order"
+        app:srcCompat="@mipmap/conector_2x6_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="273dp"
+        android:onClick="show3x6Order"
+        app:srcCompat="@mipmap/conector_3e6s_foreground" />
+
+
+</RelativeLayout>
